@@ -288,9 +288,10 @@
 
     project1.addEventListener('click', () => {
       const aboutBox = new WinBox({
+        class: "no-full",
         title: 'About Project 1',
-        width: '400px',
-        height: '400px',
+        width: '300px',
+        height: '300px',
         top: 0,
         right: 0,
         bottom: 0,
@@ -307,9 +308,10 @@
 
     project2.addEventListener('click', () => {
       const aboutBox = new WinBox({
+        class: "no-full",
         title: 'About Project 2',
-        width: '400px',
-        height: '400px',
+        width: '300px',
+        height: '300px',
         top: 0,
         right: 0,
         bottom: 0,
@@ -326,9 +328,10 @@
 
     project3.addEventListener('click', () => {
       const aboutBox = new WinBox({
+        class: "no-full",
         title: 'About Project 3',
-        width: '400px',
-        height: '400px',
+        width: '300px',
+        height: '300px',
         top: 0,
         right: 0,
         bottom: 0,
@@ -345,9 +348,10 @@
 
     project4.addEventListener('click', () => {
       const aboutBox = new WinBox({
+        class: "no-full",
         title: 'About Project 4',
-        width: '400px',
-        height: '400px',
+        width: '300px',
+        height: '300px',
         top: 0,
         right: 0,
         bottom: 0,
@@ -364,9 +368,10 @@
 
     project5.addEventListener('click', () => {
       const aboutBox = new WinBox({
+        class: "no-full",
         title: 'About Project 5',
-        width: '400px',
-        height: '400px',
+        width: '300px',
+        height: '300px',
         top: 0,
         right: 0,
         bottom: 0,
