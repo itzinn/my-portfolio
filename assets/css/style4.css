@@ -586,18 +586,15 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.contact .info {
-  width: 100%;
-  background: #fff;
-}
+
 
 .contact .info i {
   font-size: 20px;
-  color: #0563bb;
+  color: #26282a;
   float: left;
   width: 44px;
   height: 44px;
-  background: #eef7ff;
+  background: #05a207;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -605,31 +602,21 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.contact .info h4 {
-  padding: 0 0 0 60px;
-  font-size: 22px;
-  font-weight: 600;
-  margin-bottom: 5px;
-  color: #45505b;
-}
-
 .contact .info p {
-  padding: 0 0 0 60px;
   margin-bottom: 0;
-  font-size: 14px;
-  color: #728394;
+  font-size: 20px;
+  color: #ffffff;
 }
 
 .contact .info .email,
 .contact .info .phone {
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
-.contact .info .email:hover i,
-.contact .info .address:hover i,
-.contact .info .phone:hover i {
-  background: #0563bb;
-  color: #fff;
+.contact .bi-envelope:hover{
+  cursor: pointer;
+  background: #09c40c;
+  color: #ffffff;
 }
 
 .contact .php-email-form {
@@ -882,12 +869,20 @@ section {
 
 
 /*-----*/
-.contact-info{
+.info{
   text-align: center;
 }
 
-.contact-info ul{
+.info ul{
   font-size: 18px;
   list-style: none;
   padding: 0;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Optional: Center-align text within .info */
 }

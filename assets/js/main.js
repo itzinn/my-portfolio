@@ -289,7 +289,7 @@
     project1.addEventListener('click', () => {
       const aboutBox = new WinBox({
         class: "no-full",
-        title: 'About Project 1',
+        title: 'orion-bootcamp',
         width: '300px',
         height: '300px',
         top: 0,
@@ -309,7 +309,7 @@
     project2.addEventListener('click', () => {
       const aboutBox = new WinBox({
         class: "no-full",
-        title: 'About Project 2',
+        title: 'simple-website-info-gather',
         width: '300px',
         height: '300px',
         top: 0,
@@ -329,7 +329,7 @@
     project3.addEventListener('click', () => {
       const aboutBox = new WinBox({
         class: "no-full",
-        title: 'About Project 3',
+        title: 'python-botnet',
         width: '300px',
         height: '300px',
         top: 0,
@@ -349,7 +349,7 @@
     project4.addEventListener('click', () => {
       const aboutBox = new WinBox({
         class: "no-full",
-        title: 'About Project 4',
+        title: 'email-sending-keylogger',
         width: '300px',
         height: '300px',
         top: 0,
@@ -369,7 +369,7 @@
     project5.addEventListener('click', () => {
       const aboutBox = new WinBox({
         class: "no-full",
-        title: 'About Project 5',
+        title: 'modularis',
         width: '300px',
         height: '300px',
         top: 0,
